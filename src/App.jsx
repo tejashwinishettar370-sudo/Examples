@@ -1,9 +1,13 @@
-import home from "./home"
+import Button from "./Components/Button"
+
 function App() {
 
   return (
     <>
-    <home />
+    <Button
+      name="tejashwini"
+      age={21}
+    />
     </>
   )
 }
